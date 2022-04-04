@@ -55,9 +55,9 @@ User Defined libraries. These exist in the qualifier folder in the repo with the
 [Data files](data)
 
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
-the data in this case is a list of loans
-![data file view](Desktop/Screen Shot5.png)
+the data in this case is a list of loans:
+![data file view](/Users/comdrpaquiot/Desktop/Screen Shot5.png)
 
 
 [Code thoughts](thoughts)
-I felt it was important to use an if elif and else loop to make cover all cases if the user input a yes or no or some undefined word. I also wanted to account for ifthe user entered caps or some mised case 
+I felt it was important to use an if elif and else loop to make cover all cases if the user input a yes or no or some undefined word. I also wanted to account for ifthe user entered caps or some mixed
