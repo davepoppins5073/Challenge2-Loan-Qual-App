@@ -1,6 +1,5 @@
 # *Challenge2-Loan-Qual-App*
-
-**Show off my new software engineering by adding save csv functionality to the code base**
+**Showing off my new software engineering by adding save csv functionality to the code base**
 
 ---
 
@@ -18,11 +17,12 @@ import questionary
 from pathlib import Path
 import csv
 
-# - User Defined libraries. These exist in the qualifier folder in the repo with the two subfolders:
-#.    #1 - filters
-#.    #2 - utils
+## - User Defined libraries. These exist in the qualifier folder in the repo with the two subfolders:
+1 - filters
+2 - utils
 
 from qualifier.utils.fileio import load_csv
+
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -40,4 +40,3 @@ this file needs to take data from the csv file in the data folder: daily_rate_sh
 the data in this case is a list of loans
 
 
-[References](references)
