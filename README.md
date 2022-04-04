@@ -9,17 +9,17 @@
 [Programs](code)
 Here are the app.py dependencies:
 
-# - standard Libraies
-import sys
-import os
-import fire
-import questionary
-from pathlib import Path
-import csv
+### - Standard Libraries
+*import sys
+*import os
+*import fire
+*import questionary
+*from pathlib import Path
+*import csv
 
-## - User Defined libraries. These exist in the qualifier folder in the repo with the two subfolders:
-1 - filters
-2 - utils
+### - User Defined libraries. These exist in the qualifier folder in the repo with the two subfolders:
+*1 - filters
+*2 - utils
 
 from qualifier.utils.fileio import load_csv
 
