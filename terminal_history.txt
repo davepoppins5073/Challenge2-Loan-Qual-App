@@ -1,0 +1,502 @@
+  100  ls
+  101  ls
+  102  mkdir CU-VIRT-FIN-PT-03-2022-U-B
+  103  cd CU-VIRT-FIN-PT-03-2022-U-B
+  104  git clone git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git
+  105  jupyter lab
+  106  ls 
+  107  cd Desktop
+  108  ls
+  109  ls -l
+  110  cd Fintech-WorkSpace
+  111  ls
+  112  cd Python_Project
+  113  ls
+  114  conda activate dev
+  115  ls 
+  116  mkdir Mod2_Challenge
+  117  cd Mod2_Challenge
+  118  mkdir data
+  119  mkdir qualifier
+  120  ls
+  121  touch app.py
+  122  ls
+  123  touch README.md
+  124  ld 
+  125  ld
+  126  ls
+  127  touch command_hist.txt
+  128  pwd
+  129  cd ../..
+  130  cd ..
+  131  ls
+  132  cd ..
+  133  ls
+  134  cd Downloads
+  135  ls 
+  136  cd Starter_Code
+  137  ls
+  138  cd loan_qualifier_app
+  139  ls
+  140  mv ~/Download/Starter_Code/loan_qualifier_app
+  141  mv ~/Download/Starter_Code/loan_qualifier_app/app.py /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge
+  142  ls
+  143  cd ../..
+  144  cd ../..
+  145  ls
+  146  cd comdrpaquiot
+  147  ls
+  148  cd Desktop
+  149  cd
+  150  ls
+  151  cd Desktop
+  152  ls
+  153  cd Fintech-WorkSpace
+  154  ls
+  155  cd Python_Project
+  156  cd
+  157  cd Fintech-WorkSpace
+  158  cd Desktop/Fintech-Workspace/Python_Project
+  159  ls
+  160  cd Mod2_Challenge
+  161  ls
+  162  cd ..
+  163  ls
+  164  mkdir Mod1_Challenge
+  165  jupyter lab
+  166  /usr/bin/python3
+  167  /usr/bin/python3 /Users/comdrpaquiot/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/shell_exec.py /usr/bin/python3 -m pip install -U jupyter /var/folders/0h/kj6ynz391nddcj0kr3zf3qyh0000gn/T/tmp-265323EdeiAx0sPM7.log
+  168  /usr/bin/python3 /Users/comdrpaquiot/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/shell_exec.py /usr/bin/python3 -m pip install -U notebook /var/folders/0h/kj6ynz391nddcj0kr3zf3qyh0000gn/T/tmp-265327H6DAo6gZp4O.log
+  169  pip install numpy
+  170  conda activate dev
+  171  cd Desktop
+  172  ls
+  173  cd Fintech-WorkSpace
+  174  ls
+  175  cd Python_Project
+  176  ls 
+  177  cd Mod1_challenge
+  178  ls
+  179  cd GitHub_Uploader
+  180  ls
+  181  jupyter lab
+  182  cd Desktop/Fintech-WorkSpace/Python_Project
+  183  ls
+  184  conda activate dev
+  185  pip install numpy
+  186  ls
+  187  cd Mod1_Challenge
+  188  ls
+  189  cd GitHub_Uploader
+  190  ls
+  191  python loan_analyzer_2,py
+  192  python loan_analyzer_2.py
+  193  python loan_analyzer_2.py
+  194  python loan_analyzer_2.py
+  195  python loan_analyzer_2.py
+  196  python loan_analyzer_2.py
+  197  python loan_analyzer_2.py
+  198  python loan_analyzer_2.py
+  199  python loan_analyzer_2.py
+  200  python loan_analyzer_2.py
+  201  python loan_analyzer_2.py
+  202  python loan_analyzer_2.py
+  203  mkdir data
+  204  ls
+  205  python loan_analyzer_2.py
+  206  python loan_analyzer_2.py
+  207  ls
+  208  cd data
+  209  ls
+  210  pwd
+  211  ls
+  212  cd ..
+  213  ls
+  214  pwd
+  215  python loan_analyzer_2.py
+  216  python loan_analyzer_2.py
+  217  cd data
+  218  ls
+  219  cd ..
+  220  ls
+  221  python loan_analyzer_2.py
+  222  cd data
+  223  ls
+  224  cd ..
+  225  python loan_analyzer_2.py
+  226  cd data
+  227  ls
+  228  cd ..
+  229  ls
+  230  python loan_analyzer_2.py
+  231  cd data
+  232  ls
+  233  cd ..
+  234  python loan_analyzer_2.py
+  235  python loan_analyzer_2.py
+  236  python loan_analyzer_2.py
+  237  python loan_analyzer_2.py
+  238  python loan_analyzer_2.py
+  239  ls
+  240  touch .gitignore
+  241  ls
+  242  conda deactivate
+  243  cs ''
+  244  cd..
+  245  cd..
+  246  cd .
+  247  cd ..
+  248  cd..
+  249  \..
+  250  ../
+  251  cd ..
+  252  cd ..
+  253  ls
+  254  cd github_backup
+  255  cd gitlab_backuo
+  256  cd gitlab_backup
+  257  git fetch origin main
+  258  git
+  259  git fetch git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git
+  260  conda dev activate
+  261  conda activate dev
+  262  git fetch git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git
+  263  git fetch
+  264  cd
+  265  ls
+  266  desktop
+  267  cd Desktop
+  268  ls
+  269  cd Fintech-WorkSpace
+  270  git fetch
+  271  git status
+  272  git
+  273  git fetch  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  274  ls
+  275  gitlab_class
+  276  cd gitlab_class
+  277  ls
+  278  git fetch  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  279  cd CU-VIRT-FIN-PT-03-2022-U-B
+  280  git fetch  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  281  ls
+  282  cd CU-VIRT-FIN-PT-03-2022-U-B
+  283  ls
+  284  git fetch  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  285  ls
+  286  cd 02-Financial-Applications-Python
+  287  ls
+  288  cd 1
+  289  ls
+  290  cd ..
+  291  cd..
+  292  cd ..
+  293  cd..
+  294  cd ..
+  295  cd ..
+  296  ls
+  297  cd ..
+  298  ls
+  299  gitlab_backup
+  300  cd gitlab_backup
+  301  ls
+  302  cd CU-VIRT-FIN-PT-03-2022-U-B
+  303  ls
+  304  cd CU-VIRT-FIN-PT-03-2022-U-B
+  305  ls
+  306  git fetch  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  307  cd branch
+  308  ls
+  309  README.md
+  310  open README.md
+  311  ls
+  312  git pull  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  313  ls 
+  314  cd..
+  315  cd ..
+  316  cd ..
+  317  cd ..
+  318  ls
+  319  gitlab_class
+  320  cd gitlab_class
+  321  ls
+  322  cd CU-VIRT-FIN-PT-03-2022-U-B
+  323  cd CU-VIRT-FIN-PT-03-2022-U-B
+  324  ls
+  325  git pull  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  326  git getch --all
+  327  git fetch --all
+  328  git reset --hard origin/master
+  329  git reset --hard
+  330  git pull  git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git;
+  331  cd
+  332  cd Desktop
+  333  ls
+  334  cd Fintech-WorkSpace
+  335  ls
+  336  gitlab_class
+  337  cd gitlab_class
+  338  ls
+  339  cd CU-VIRT-FIN-PT-03-2022-U-B
+  340  cd CU-VIRT-FIN-PT-03-2022-U-B
+  341  ls
+  342   cd 03-Financial-Analysis-Pandas
+  343  ls
+  344  Cd 1
+  345  ls 
+  346  jupyter
+  347  jupyter lab
+  348  ls 
+  349   cd Desktop
+  350  ls
+  351   cd Fintech-WorkSpace
+  352  ls
+  353  cd gitlab_class
+  354  ls
+  355  cd CU-VIRT-FIN-PT-03-2022-U-B
+  356  cd C
+  357  cd CU-VIRT-FIN-PT-03-2022-U-B
+  358  ls 
+  359  cd 02-Financial-Applications-Python
+  360  ls
+  361  ls
+  362  cd 1
+  363  ls
+  364  jupyter lab
+  365  cd Desktop/Fintech-WorkSpace
+  366  ls
+  367  cd gitlab_class
+  368  ls
+  369  cd CU-VIRT-FIN-PT-03-2022-U-B
+  370  cd CU-VIRT-FIN-PT-03-2022-U-B
+  371  ls
+  372  cd 02
+  373  cd 02-Financial-Applications-Python
+  374  ls
+  375  conda activate dev
+  376  jupyter labs
+  377  jupyter lab
+  378  cd 
+  379  ls
+  380  cd Desktop/Fintech-WorkSpace/
+  381  ls
+  382  cd gitlab_class
+  383  ls
+  384  cd CU-VIRT-FIN-PT-03-2022-U-B/ls
+  385  cd CU-VIRT-FIN-PT-03-2022-U-B
+  386  cd ..
+  387  cd..
+  388  cd ..
+  389  conda activate dev
+  390  cd gitlab_backup
+  391  cd 
+  392  cd Desktop/Fintech-WorkSpace/
+  393  cd gitlab_class
+  394  cd CU-VIRT-FIN-PT-03-2022-U-B
+  395  ls
+  396  cd CU-VIRT-FIN-PT-03-2022-U-B
+  397  ls
+  398  cd 02-Financial-Applications-Python
+  399  ls
+  400  cd ../..
+  401  cd ..
+  402  cd
+  403  cd 02-Financial-Applications-Python
+  404  cd Desktop/Fintech-WorkSpace/
+  405  ls
+  406  cd Python_Project
+  407  ls
+  408  cd Mod2_Challenge
+  409  ls
+  410  app.py
+  411  open app.py
+  412  cd qualifier
+  413  ls
+  414  mkdir utils
+  415  mkdir filter
+  416  ls
+  417  ls
+  418  cd ..
+  419  ls
+  420  open README.md
+  421  cd ..
+  422  pip install fire
+  423  pip install questionary
+  424  ls
+  425  cd Mod2_Challenge
+  426  jupyter lab
+  427  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  428  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  429  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  430  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  431  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  432  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  433  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  434  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  435  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  436  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  437  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  438  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  439  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  440  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  441  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  442  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  443  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  444  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  445  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  446  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  447  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  448  /usr/bin/python3 /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader/Untitled-1.py
+  449  cd Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge
+  450  conda activate dev
+  451  cd GitHub_Uploader
+  452  python app.py
+  453  python app.py
+  454  python app.py
+  455  python app-Copy1.py
+  456  python app-Copy1.py
+  457  python app-Copy1.py
+  458  jupyter labs
+  459  jupyter lab
+  460  cd Desktop/Fintech-WorkSpace/Python_Project
+  461  ls
+  462  cd Mod2_Challenge
+  463  git branch -a
+  464  cd ..
+  465  git branch -a
+  466  cd Mod1_Challene
+  467  ls
+  468  cd Mod1_Challenge
+  469  ls
+  470  cd GitHub_Uploader
+  471  ls 
+  472  cd ..
+  473  cd ..
+  474  ls Mod2_Challenge
+  475  cd Mod2_Challenge
+  476  ls
+  477  mkdir GitHub_Uploader
+  478  ls
+  479  conda activate dev
+  480  cd GitHub_Uploader
+  481  ls
+  482  git clone https://github.com/davepoppins5073/Loan_Qualifier_App.git
+  483  ls
+  484  open README.md
+  485  cd data
+  486  ls
+  487  cd ..
+  488  ls
+  489  rm command_hist.txt
+  490  rm thoughts.txt
+  491  rm Untitled.ipynb
+  492  ls
+  493  open Loan_Qualifier_App
+  494  rm Loan_Qualifier_App
+  495  ls
+  496  open app.py
+  497  rmdir Loan_Qualifier_App
+  498  rmdir Loan_Qualifier_App -r
+  499  rm -rf Loan_Qualifier_App
+  500  ls
+  501  cd qualifier
+  502  ls
+  503  cd utils
+  504  ls
+  505  cd ..
+  506  cd ..
+  507  ls
+  508  cd qualifier
+  509  ls
+  510  cd filter
+  511  l
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd utils
+  516  ls
+  517  cd .. /..
+  518  cd ../..
+  519  cd ..\..
+  520  cd ..
+  521  cd ..
+  522  cd ..
+  523  ls 
+  524  cd Python_Project
+  525  ls
+  526  cd Mod2_Challenge
+  527  ls
+  528  cd GitHub_Uploader
+  529  ls
+  530  jupyter lab
+  531  ls
+  532   app.py
+  533  open app.py
+  534  run app.py
+  535  python app.py
+  536  ls
+  537  open app.py
+  538  python app.py
+  539  python app.py
+  540  python app.py
+  541  python app.py
+  542  python app.py
+  543  python app.py
+  544  python app.py
+  545  python app.py
+  546  python app.py
+  547  python app.py
+  548  python app.py
+  549  python app.py
+  550  jupyter lab
+  551  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  552  ls
+  553  jupyter lab
+  554  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  555  conda activate dev
+  556  jupyter lab
+  557  conda activate dev
+  558  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  559  jupyter lab
+  560  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  561  python app-Copy1.py
+  562  python app-Copy1.py
+  563  python app-Copy1.py
+  564  conda activate dev
+  565  python app-Copy1.py
+  566  python app-Copy1.py
+  567  python app-Copy1.py
+  568  python app-Copy1.py
+  569  open gitignore
+  570  cd ..
+  571  ls
+  572  cd GitHub_Uploader
+  573  git
+  574  git dif
+  575  git diff
+  576  git -C
+  577  git stash
+  578  ls
+  579  cd ..
+  580  ls
+  581  git stash
+  582  conda deactivate dev
+  583  conda activate base
+  584  git stash
+  585  cd GitHub_Uploader
+  586  git stash
+  587  find / -name git
+  588  conda activate dev
+  589  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  590  jupyter lab
+  591  conda activate dev
+  592  find \ -name gitignore
+  593  find \ -name git
+  594  find git
+  595  find / -name git
+  596  history 50 > terminal_history.txt
+  597  cd desktop
+  598  cd /Users/comdrpaquiot/Desktop/Fintech-WorkSpace/Python_Project/Mod2_Challenge/GitHub_Uploader
+  599  history 50 > terminal_history.txt
+  600  conda activate dev
+  601  history 1000 > terminal_history.txt
