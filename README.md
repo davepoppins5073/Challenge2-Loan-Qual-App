@@ -56,7 +56,8 @@ User Defined libraries. These exist in the qualifier folder in the repo with the
 
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
 the data in this case is a list of loans:
-<img width="885" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162347255-d5634ef5-d863-4cfb-8187-47608f2f7333.png">
+<img width="881" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162363653-af8557ce-7a2b-495b-9bf0-a63297b1d0bb.png">
+
 
 
 [Code thoughts](thoughts)
