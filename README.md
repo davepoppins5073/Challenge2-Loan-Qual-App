@@ -6,7 +6,7 @@
 
 ## Directory
 
-[Programs](code)
+[Dependencies](code)
 > "...  Here are the app.py dependencies:
 > Standard Libraries
 * import sys
@@ -16,7 +16,8 @@
 * from pathlib import Path
 * import csv
 
-User Defined libraries. These exist in the qualifier folder in the repo with the two subfolders:
+[User Defined libraries](code) 
+These exist in the qualifier folder in the repo with the two subfolders:
 <img width="777" alt="Screen Shot 2022-04-09 at 11 39 15 PM" src="https://user-images.githubusercontent.com/101449950/162600535-ec05b3ee-dd28-4911-bd09-7b96255cb8a8.png">
 
 * ... from qualifier.utils.fileio import load_csv
@@ -31,6 +32,7 @@ User Defined libraries. These exist in the qualifier folder in the repo with the
 * from qualifier.filters.credit_score import filter_credit_score
 * from qualifier.filters.debt_to_income import filter_debt_to_income
 * from qualifier.filters.loan_to_value import filter_loan_to_value
+
 
 #### Central save functionality code 
 > "...
