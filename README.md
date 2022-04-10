@@ -121,7 +121,7 @@ def save_qualifying_loans(qualifying_loans):
 >" ...
 
 [Data files](code)
-<img width="777" alt="Screen Shot 2022-04-10 at 12 48 37 AM" src="https://user-images.githubusercontent.com/101449950/162601952-4c071bdd-ce99-404f-85c1-338bf4e44a4d.png">
+<img width="777" alt="Screen Shot 2022-04-10 at 12 48 37 AM" src="https://user-images.githubusercontent.com/101449950/162601994-af428bd7-3856-493b-a2c4-40f9b9911091.png">
 
 
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
@@ -129,8 +129,14 @@ the data in this case is a list of loans.
 
 
 [Code Screenshots](code)
+A Code Run:
 <img width="881" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162363653-af8557ce-7a2b-495b-9bf0-a63297b1d0bb.png">
 
+A New Code Run
+<img width="1512" alt="Screen Shot 2022-04-10 at 1 01 24 AM" src="https://user-images.githubusercontent.com/101449950/162602233-7c5d3fdf-2956-4233-baa9-fe4b458e88f3.png">
+
+A code run where I tested the scenario that would return 0 qualifying loans
+<img width="1512" alt="Screen Shot 2022-04-10 at 1 05 28 AM" src="https://user-images.githubusercontent.com/101449950/162602297-b925816e-0c50-4ae7-ac57-4253ae82b3d9.png">
 
 
 [Code thoughts](thoughts)
@@ -140,3 +146,15 @@ I got the following feedback and decided to go through the code and make some up
 So to that end i changed the structure of my code around to do the following
 1. In app.py I changed the save_qualifying_loans function to utilize the sys.exit() more
 2. Created a separate function.py with two functions, only one of which was called. I made sure to make use of questionary and sys.exit()
+
+[Considerations](code)
+There are a few thing that in order to be robust this assignment would neeed:
+1. A counter or functionality around giving the user a set number of tries to get everything entered correctly
+2. From what I've seem most VP's or C-suite folks dont even want to run a script. They want reports to be emailed to them or an email alias so that they can delegate the reading of an acting on to someone else while keeping them in the loop.
+3. The reason I bring up point number two because there is an issue around saving namely:
+    1. Where does the user have access to save to ?
+    2. If multiple people use this app they  would each need to deisgnate where they would want their report sent
+    3. Also I do wonder how fresh is the loan list  does it get updated monthly quarterly. These kinds of things arent known
+    4. There would need to be more validations around the imput the user is entering like for instance there shouldnt be a comma in 10,000  if the user entered that for monthly salary. Similarly one's credit score is a 3 digit numnber that ranges from 200 - 800. It might make sense to either have a csv or an api to pull user data from so we can run more validations on it. 
+
+That's just my $0.02
