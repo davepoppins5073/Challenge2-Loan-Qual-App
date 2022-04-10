@@ -25,7 +25,7 @@ User Defined libraries. These exist in the qualifier folder in the repo with the
 *    calculate_loan_to_value_ratio
 *    
 (Update: added new function.py file will call a function from)
-from qualifier.utils.functions import file_save_location
+* ... from qualifier.utils.functions import file_save_location
 
 * from qualifier.filters.max_loan_size import filter_max_loan_size
 * from qualifier.filters.credit_score import filter_credit_score
