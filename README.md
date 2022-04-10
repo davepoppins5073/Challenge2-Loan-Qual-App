@@ -20,6 +20,7 @@
 These exist in the qualifier folder in the repo with the two subfolders:
 <img width="777" alt="Screen Shot 2022-04-09 at 11 39 15 PM" src="https://user-images.githubusercontent.com/101449950/162600535-ec05b3ee-dd28-4911-bd09-7b96255cb8a8.png">
 
+
 ```python
 from qualifier.utils.fileio import load_csv
 from qualifier.utils.calculators import (
@@ -117,12 +118,15 @@ def save_qualifying_loans(qualifying_loans):
         print("No loans muchacho")
         sys.exit("In the words of Rick Ross: Get your money up. Bye !")
 ```
-    
+>" ...
 
 [Data files](code)
 <img width="777" alt="Screen Shot 2022-04-10 at 12 48 37 AM" src="https://user-images.githubusercontent.com/101449950/162601952-4c071bdd-ce99-404f-85c1-338bf4e44a4d.png">
+
+
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
-the data in this case is a list of loans:
+the data in this case is a list of loans.
+
 
 [Code Screenshots](code)
 <img width="881" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162363653-af8557ce-7a2b-495b-9bf0-a63297b1d0bb.png">
