@@ -20,6 +20,9 @@ from qualifier.utils.calculators import (
     calculate_loan_to_value_ratio,
 )
 
+from qualifier.utils.functions import file_save_location
+
+
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
@@ -106,26 +109,35 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
+        
+        We should only save the qualifying loans to a csv pIf there are loans in the dataframe. 
+        There exists the possibility that the the user qualified for no loans and as such we need 
+        to let them know. 
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    location = os.getcwd()
-    savecsvfle_ans = questionary.text("Do you want to save this of qualifying loans as a file. (Yes|No)").ask()
     
-    if savecsvfle_ans.lower() == 'yes':
-        with open('Qualifying_loans_2.csv', 'w') as f: 
-            write = csv.writer(f) 
-            write.writerows(qualifying_loans)
-            print(f"Your file was sent to this folder: {location} ")
-    
-    elif savecsvfle_ans.lower() == 'no':
-        print(f"You must have a good memory then. Peace out!")
-    
+    if len(qualifying_loans):
+        savecsvfle_ans = questionary.text("Do you want to save this of qualifying loans as a file. (Yes|No)").ask()
+        
+        # Verifies the answer input was a string
+        if type(savecsvfle_ans) !=str:
+            sys.exit("You have embarassed your family & teachers by your inability to type: 'yes' or 'no'. Scram.")
+        
+        elif type(savecsvfle_ans) ==str and savecsvfle_ans.lower() != 'yes':
+            sys.exit("You either answered 'No' or typed in ?1?! Buh-Bye! We don't want you to use our app anyways.")
+        
+        elif type(savecsvfle_ans) ==str and savecsvfle_ans.lower() == 'yes':
+            file_save_location(qualifying_loans)
+        
     else:
-        print(f"You didn't enter (yes) or (no)")
-        print(f"Sorry, I'm shutting down, this is the penalty for not typing correctly")
-
+        print("No loans muchacho")
+        sys.exit("In the words of Rick Ross: Get your money up. Bye !")
+    
+    
+   
+   
 
 
 def run():
@@ -148,3 +160,4 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+
