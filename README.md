@@ -24,9 +24,10 @@ These exist in the qualifier folder in the repo with the two subfolders:
 * ... from qualifier.utils.calculators import (
 *    calculate_monthly_debt_ratio
 *    calculate_loan_to_value_ratio
-*    
+
 (Update: added new function.py file will call a function from)
 * ... from qualifier.utils.functions import file_save_location
+
 
 * from qualifier.filters.max_loan_size import filter_max_loan_size
 * from qualifier.filters.credit_score import filter_credit_score
@@ -34,8 +35,8 @@ These exist in the qualifier folder in the repo with the two subfolders:
 * from qualifier.filters.loan_to_value import filter_loan_to_value
 
 
-#### Central save functionality code 
-> "...
+##[Code Snippets and Explanations](code)
+> "...CODE SNIPPET 1: def save_csv(csvpath, data, header=None)
 > "... As is good coding practice I wanted the save CSV function to do only that save the csv, nothing more or nothing less. The one thing i did here is told the user where the file would be saved to.
 > 
 > def save_csv(csvpath, data, header=None):
@@ -55,6 +56,22 @@ These exist in the qualifier folder in the repo with the two subfolders:
         write.writerows(data)
 
 
+> "... CODE SNIPPET 2: def file_save_location(qualifying_loans)
+> "... Here I wanted to firstly prompt the user with information, let them know where we were storing their file as well as the name of the file.
+> "... Next I wanted to let them know that this script didnt have the functionality to create folders for  every instance a user wanted to save their output
+> 
+> def file_save_location(qualifying_loans):
+    
+    location = os.getcwd()+ "/"
+    
+    print(f"FYI: this is where we will save your file: {location}.")
+    yesno_to_location = questionary.text("Do you have any objections to saving the file 'Qualifying_loans.csv' here Yes|No ?").ask()
+    
+    if type(yesno_to_location) ==str and yesno_to_location.lower() == 'no':
+        save_csv(location, qualifying_loans)
+    
+    else:
+        sys.exit("Version 2 of this app allows user to create new folders where files can be saved. Start over, do not pass go, do not collect $200 !!!")
 
 
 [Data files](data)
