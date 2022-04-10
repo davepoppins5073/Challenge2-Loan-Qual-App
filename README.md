@@ -20,24 +20,27 @@
 These exist in the qualifier folder in the repo with the two subfolders:
 <img width="777" alt="Screen Shot 2022-04-09 at 11 39 15 PM" src="https://user-images.githubusercontent.com/101449950/162600535-ec05b3ee-dd28-4911-bd09-7b96255cb8a8.png">
 
-* ... from qualifier.utils.fileio import load_csv
-* ... from qualifier.utils.calculators import (
-*    calculate_monthly_debt_ratio
-*    calculate_loan_to_value_ratio
+```python
+from qualifier.utils.fileio import load_csv
+from qualifier.utils.calculators import (
+calculate_monthly_debt_ratio
+calculate_loan_to_value_ratio
+```
 
 (Update: added new function.py file will call a function from)
-* ... from qualifier.utils.functions import file_save_location
+```python
+from qualifier.utils.functions import file_save_location
+```
 
-
-* from qualifier.filters.max_loan_size import filter_max_loan_size
-* from qualifier.filters.credit_score import filter_credit_score
-* from qualifier.filters.debt_to_income import filter_debt_to_income
-* from qualifier.filters.loan_to_value import filter_loan_to_value
-
+```python
+from qualifier.filters.max_loan_size import filter_max_loan_size
+from qualifier.filters.credit_score import filter_credit_score
+from qualifier.filters.debt_to_income import filter_debt_to_income
+from qualifier.filters.loan_to_value import filter_loan_to_value
+```
 
 [Code Snippets and Explanations](code)
-> "...CODE SNIPPET 1: 
-> def save_csv(csvpath, data, header=None)
+> "...CODE SNIPPET 1:  def save_csv(csvpath, data, header=None)
 > "... As is good coding practice I wanted the save CSV function to do only that save the csv, nothing more or nothing less. The one thing i did here is told the user where the file would be saved to.
 
 ```python
@@ -61,6 +64,7 @@ These exist in the qualifier folder in the repo with the two subfolders:
 > "... CODE SNIPPET 2: def file_save_location(qualifying_loans)
 > "... Here I wanted to firstly prompt the user with information, let them know where we were storing their file as well as the name of the file.
 > "... Next I wanted to let them know that this script didnt have the functionality to create folders for  every instance a user wanted to save their output
+> 
 ```python
 > def file_save_location(qualifying_loans):
     
