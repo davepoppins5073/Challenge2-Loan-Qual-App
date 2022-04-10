@@ -40,7 +40,7 @@ These exist in the qualifier folder in the repo with the two subfolders:
 > def save_csv(csvpath, data, header=None)
 > "... As is good coding practice I wanted the save CSV function to do only that save the csv, nothing more or nothing less. The one thing i did here is told the user where the file would be saved to.
 
-python'''
+```python
 > def save_csv(csvpath, data, header=None):
     """ Saves the CSV file from path provided.
 
@@ -56,12 +56,12 @@ python'''
         write = csv.writer(f) 
         write.writerow(header)
         write.writerows(data)
-'''
+```
 
 > "... CODE SNIPPET 2: def file_save_location(qualifying_loans)
 > "... Here I wanted to firstly prompt the user with information, let them know where we were storing their file as well as the name of the file.
 > "... Next I wanted to let them know that this script didnt have the functionality to create folders for  every instance a user wanted to save their output
-python'''
+```python
 > def file_save_location(qualifying_loans):
     
     location = os.getcwd()+ "/"
@@ -74,7 +74,7 @@ python'''
     
     else:
         sys.exit("Version 2 of this app allows user to create new folders where files can be saved. Start over, do not pass go, do not collect $200 !!!")
-'''
+```
 
 [Data files](data)
 
