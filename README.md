@@ -119,12 +119,12 @@ def save_qualifying_loans(qualifying_loans):
 ```
     
 
-[Data files](data)
-
+[Data files](code)
+<img width="777" alt="Screen Shot 2022-04-10 at 12 48 37 AM" src="https://user-images.githubusercontent.com/101449950/162601952-4c071bdd-ce99-404f-85c1-338bf4e44a4d.png">
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
 the data in this case is a list of loans:
 
-
+[Code Screenshots](code)
 <img width="881" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162363653-af8557ce-7a2b-495b-9bf0-a63297b1d0bb.png">
 
 
@@ -135,8 +135,4 @@ I got the following feedback and decided to go through the code and make some up
 
 So to that end i changed the structure of my code around to do the following
 1. In app.py I changed the save_qualifying_loans function to utilize the sys.exit() more
-2. Created a separate function.py with two functions, only one of which was called. I made sure to make use of questionary and sys.exit(0
-
-
-
-
+2. Created a separate function.py with two functions, only one of which was called. I made sure to make use of questionary and sys.exit()
