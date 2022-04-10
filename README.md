@@ -79,14 +79,64 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
     else:
         sys.exit("Version 2 of this app allows user to create new folders where files can be saved. Start over, do not pass go, do not collect $200 !!!")
 ```
+CODE SNIPPET 3: def save_qualifying_loans(qualifying_loans)
+>" ... This to me is the where the magic happens in this script. There are multiple conditionals here
+> first If clause --  if there was some data in the qualifying loans list of list, then we could proceed
+> nested if: if the user didnt enter a string the they should know. Used a sys.exit() here
+> 1st elif: if the answer is a string  and equal to "no" or anything else the user should know. Used another sys.exit() here
+> 2nd elif: if the answer is a string & is a "yes" we called the file_save_location function
+> else  if the list of list was empty i.e. no qualifying loans we should send the person away
+> 
+
+```python
+def save_qualifying_loans(qualifying_loans):
+    """Saves the qualifying loans to a CSV file.
+        
+        We should only save the qualifying loans to a csv pIf there are loans in the dataframe. 
+        There exists the possibility that the the user qualified for no loans and as such we need 
+        to let them know. 
+
+    Args:
+        qualifying_loans (list of lists): The qualifying bank loans.
+    """
+    
+    if len(qualifying_loans):
+        savecsvfle_ans = questionary.text("Do you want to save this of qualifying loans as a file. (Yes|No)").ask()
+        
+        # Verifies the answer input was a string
+        if type(savecsvfle_ans) !=str:
+            sys.exit("You have embarassed your family & teachers by your inability to type: 'yes' or 'no'. Scram.")
+        
+        elif type(savecsvfle_ans) ==str and savecsvfle_ans.lower() != 'yes':
+            sys.exit("You either answered 'No' or typed in ?1?! Buh-Bye! We don't want you to use our app anyways.")
+        
+        elif type(savecsvfle_ans) ==str and savecsvfle_ans.lower() == 'yes':
+            file_save_location(qualifying_loans)
+        
+    else:
+        print("No loans muchacho")
+        sys.exit("In the words of Rick Ross: Get your money up. Bye !")
+```
+    
 
 [Data files](data)
 
 >" ... This file needs to take data from the csv file in the data folder: daily_rate_sheet.csv.
 the data in this case is a list of loans:
+
+
 <img width="881" alt="App_Screenshot" src="https://user-images.githubusercontent.com/101449950/162363653-af8557ce-7a2b-495b-9bf0-a63297b1d0bb.png">
 
 
 
 [Code thoughts](thoughts)
-I felt it was important to use an if elif and else loop to make cover all cases if the user input a yes or no or some undefined word. I also wanted to account for ifthe user entered caps or some mixed
+I got the following feedback and decided to go through the code and make some updates:
+>"  Great job understanding the techniques behind the application and solving the required TODOS. Your coding logic and intuition was good when you tried to save the qualified loans to a csv file. However, you focused more on applying write rows techniques, than on using the libraries imported above, such as sys, path and questionary. These libraries were imported to help you with save qualifying loan logic. 
+
+So to that end i changed the structure of my code around to do the following
+1. In app.py I changed the save_qualifying_loans function to utilize the sys.exit() more
+2. Created a separate function.py with two functions, only one of which was called. I made sure to make use of questionary and sys.exit(0
+
+
+
+
